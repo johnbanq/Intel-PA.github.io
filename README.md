@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to Intel-PA
 
-You can use the [editor on GitHub](https://github.com/Intel-PA/Intel-PA.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+  This is a landing page that is meant to provide an overview of the project and where to find various resources that pertain to it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Modules and Ownership
 
-### Markdown
+- Speech recognition module
+- Text generation module
+- Medical diagnosis module
+- Speech generation module
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Intel-PA/Intel-PA.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Literature
+  This is a repository of academic writing that has been read so far, along with comments about its relevance to the project. (Maybe link to a Mendeley library here?)
+  
+### Datasets
+  A collection of relevant datasets with appropriate statistics (size, is it noisy etc). Link to a google drive.
