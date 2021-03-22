@@ -4,10 +4,11 @@
 
 ### Modules and Ownership
 
-- Speech recognition module
-- Text generation module
-- Medical diagnosis module
-- Speech generation module
+- Speech recognition module - Jiajun Huan
+- Natural language understanding system - Xiaoxiao Liu, Ruibin Wang
+- Medical diagnosis module - Ruibin Wang
+- Natural language generation module - Xiaoxiao Liu
+- Speech generation module - Kavi Jayathunge
 
 ### Static files
   Files generated over the course of the work - graphs, images, reports etc
