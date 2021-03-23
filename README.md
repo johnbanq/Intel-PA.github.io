@@ -4,7 +4,7 @@
 
 ### Modules and Ownership
 
-- Speech recognition module - Jiajun Huan
+- Speech recognition module - Jiajun Huang
 - Natural language understanding system - Xiaoxiao Liu, Ruibin Wang
 - Medical diagnosis module - Ruibin Wang
 - Natural language generation module - Xiaoxiao Liu
