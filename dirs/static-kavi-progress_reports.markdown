@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Files
-permalink: /static/kavi/progress_reports
+permalink: /static/kavi/progress_reports/
 ---
 
 # Directory listing for /static/kavi/progress_reports

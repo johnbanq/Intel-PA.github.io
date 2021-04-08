@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Files
-permalink: /static/kavi
+permalink: /static/kavi/
 ---
 
 # Directory listing for /static/kavi

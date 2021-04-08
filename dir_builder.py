@@ -7,7 +7,7 @@ OUT_DIR = "./dirs/"
 MARKDOWN_TEMPLATE = """---
 layout: page
 title: Files
-permalink: /<<>>
+permalink: /<<>>/
 ---
 
 # Directory listing for /<<>>

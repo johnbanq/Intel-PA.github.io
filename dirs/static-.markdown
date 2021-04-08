@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Files
-permalink: /static/
+permalink: /static//
 ---
 
 # Directory listing for /static/
