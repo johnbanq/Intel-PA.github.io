@@ -11,7 +11,7 @@
 - Speech generation module - Kavi Jayathunge
 
 ### Static files
-  Files generated over the course of the work - graphs, images, reports etc
+  To view files generated over the course of the work - graphs, images, reports etc click [here](/static/)
 
 ### Literature
   This is a repository of academic writing that has been read so far, along with comments about its relevance to the project. (Maybe link to a Mendeley library here?)
