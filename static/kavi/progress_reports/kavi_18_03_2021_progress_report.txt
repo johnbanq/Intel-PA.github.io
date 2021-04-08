@@ -4,7 +4,7 @@
 
 - Found a medical speech dataset on Kaggle that could be helpful in our chatbot's domain. Consists of about 8 hours of audio of patients describing various ailments. Some clips are of poor quality and the dataset would need to be cleaned before use 
 
-- Found a similar dataset which consists of doctors reading out clinical reports. Much shorter than previous (~1h of audio), but cleaner and contains utterences that include medical jargon that would be sensible for our bot to learn
+- Found a similar dataset which consists of doctors reading out clinical reports. Much shorter than previous (~1h of audio), but cleaner and contains utterences that include medical jargon that would be sensible for our bot to learn.
 
 - MELD dataset - audio clips of spoken dialogue annotated with its text and also with the emotional state of the speaker. Emotions labelled are Anger, Disgust, Fear, Joy, Neutral, Sadness and Surprise. While most of these would not be desireable for a medical diagnostic application (with the exception of perhaps neutral or sadness), it might be more applicable later down the line when the Intel-PA becomes more general purpose. 
 
