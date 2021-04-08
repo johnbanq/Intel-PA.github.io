@@ -4,8 +4,7 @@ import glob
 
 OUT_DIR = "./dirs/"
 
-MARKDOWN_TEMPLATE = """
----
+MARKDOWN_TEMPLATE = """---
 layout: page
 title: Files
 permalink: /<<>>
