@@ -11,6 +11,7 @@ permalink: /<<>>/
 ---
 
 # Directory listing for /<<>>
+[**<-back**](/>><<)  
 """
 
 pwd = sys.argv[1]
@@ -26,9 +27,9 @@ def get_filenames_links(directory):
 	return d
 
 
-def traverse(directory):
+def traverse(parent, directory):
 	d = get_filenames_links(directory)
-	template = MARKDOWN_TEMPLATE.replace("<<>>", directory)
+	template = MARKDOWN_TEMPLATE.replace("<<>>", directory).replace(">><<", parent)
 	dirs = []
 	for name_link in d:
 		name = name_link[0]
@@ -45,8 +46,8 @@ def traverse(directory):
 		fh.write(template)
 
 	for d in dirs:
-		traverse(d)
+		traverse(directory, d)
 # print(MARKDOWN_TEMPLATE.replace("<<>>", pwd))
 
-traverse(pwd)
+traverse("", pwd)
 
