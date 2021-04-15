@@ -13,7 +13,7 @@ permalink: /static/kavi/progress_reports/kavi_18_04_2021_progress_report/
 
 - Created a testing framework for exploring augmentation methods on different sized datasets 
 
-- Trained the Glow-TTS model on both the unaugmented and augmented datasets and looked at how the loss converges. 
+- Trained the Glow-TTS model on both the unaugmented and augmented datasets of different sizes and looked at how the loss converges. 
 
 - Synthesised some speech using both models to compare how they sound subjectively, and created a Jupyter notebook to compare them side by side. There doesn't seem to be any improvement when augmenting the dataset, regardless of size. I've attached a more detailed report.
 
