@@ -4,9 +4,9 @@ title: kavi_18_04_2021_progress_report
 permalink: /static/kavi/progress_reports/kavi_18_04_2021_progress_report/
 ---
 
-[**<-back**](/static/kavi/progress_reports)  
-# Progress report 18/04/2021 - Kavi
 
+# Progress report 18/04/2021 - Kavi
+[**<-back**](/static/kavi/progress_reports)  
 ## What I've done
 
 - Got CUDA working on the server 
