@@ -1,5 +1,5 @@
-Progress report
+# Progress report
 
-- item 1
-- item 2
-- etc 
+item 1
+item 2
+etc 
