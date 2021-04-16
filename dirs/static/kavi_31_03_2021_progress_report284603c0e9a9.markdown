@@ -4,8 +4,6 @@ title: Files
 permalink: /static/kavi/progress/kavi_31_03_2021_progress_report/
 ---
 
-[**<-back**](/static/kavi/progress)  
-
 # Progress report - 31/03/2021 - Kavi
 
 --Got set up with access to a University Linux account in order to try training the Glow-TTS model - installed Anaconda + created the necessary environment and built the project. Unfortunately ran into a problem with pytorch - it is not able to find any CUDA devices on the machine. I checked to be sure and it definitely has an NVIDIA card (8GB VRAM), so I don't know where the problem lies.  
@@ -20,4 +18,6 @@ permalink: /static/kavi/progress/kavi_31_03_2021_progress_report/
 
 --Modify the Glow-TTS training/validation script to use the augmented datasets and compare some stats between this and the unaugmented training - does the error converge to an acceptable value faster or slower? No difference?
 
---Think of a different kind of augmentation policy altogether, and implement it. Current publications transform mel-spectrograms in simple linear ways (e.g. masking frequencies, stretching timescales, adding noise etc). Might be worth trying something more complicated (though I don't know at this stage what that might be) and checking error metrics similar to above.
+--Think of a different kind of augmentation policy altogether, and implement it. Current publications transform mel-spectrograms in simple linear ways (e.g. masking frequencies, stretching timescales, adding noise etc). Might be worth trying something more complicated (though I don't know at this stage what that might be) and checking error metrics similar to above.  
+
+[**<-back**](/static/kavi/progress)  
