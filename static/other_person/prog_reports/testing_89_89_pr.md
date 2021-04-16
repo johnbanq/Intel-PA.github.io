@@ -1,4 +1,4 @@
-# Progress report
+Progress report
 
 - item 1
 - item 2
