@@ -1,0 +1,11 @@
+---
+layout: page
+title: baz
+permalink: /static/baz/
+---
+
+[**<-back**](/static)  
+# heading 
+
+- item
+- etc
