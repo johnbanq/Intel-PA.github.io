@@ -6,3 +6,4 @@ permalink: /lr/bar/
 
 [**<-back**](/lr)  
 plain
+click [here](google.com)
