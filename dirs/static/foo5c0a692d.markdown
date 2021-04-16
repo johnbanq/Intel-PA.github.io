@@ -7,3 +7,4 @@ permalink: /static/foo/
 [**<-back**](/static)  
 
 plain md file
+click [**<-back**](/)
