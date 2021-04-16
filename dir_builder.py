@@ -1,6 +1,8 @@
 import os
 import sys
 import glob
+import uuid
+import random
 
 OUT_DIR = "./dirs/"
 
@@ -24,13 +26,15 @@ permalink: /{permalink}/{title}/
 [**<-back**](/{permalink})  
 """
 
-pwd = sys.argv[1]
 
-def clean():
-	files = glob.glob(f'{OUT_DIR}*')
+def clean(directory):
+	files = glob.glob(f'{directory}/*')
 	for f in files:
 	    os.remove(f)
 
+def make_filename(name):
+	suffix = random.choice(str(uuid.uuid4()).split('-'))
+	return f"{name}{suffix}.markdown"
 
 
 def make_listing(text, link, is_dir=False):
@@ -65,11 +69,11 @@ def markdown_to_jekyll_page(filepath):
 	return content, t
 
 
-def traverse(parent, directory):
-	d = get_filenames_links(directory)
+def _traverse(parent, directory, save_dir):
+	dir_listing = get_filenames_links(directory)
 	template = MD_TEMPLATE.format(permalink=directory, parent=parent)
 	dirs = []
-	for name_link in d:
+	for name_link in dir_listing:
 		name = name_link[0]
 		link = name_link[1]
 		
@@ -77,25 +81,40 @@ def traverse(parent, directory):
 			dirs.append(link)
 		elif link.endswith(".md") or link.endswith(".markdown"):
 			content, fname = markdown_to_jekyll_page(link)
+			fname = make_filename(fname)
 
-			with open(f"{OUT_DIR}{fname}.markdown", "w") as fh:
+			with open(f"{save_dir}/{fname}", "w") as fh:
 				fh.write(content)
 
 		template += make_listing(name, link, os.path.isdir(link))
 
-	filename = f"{OUT_DIR}{directory.replace('/', '-')}.markdown"
-	
-	with open(filename, "w") as fh:
+
+	filename = directory.split('/')[-1]
+	filename = make_filename(filename)
+
+	with open(f"{save_dir}/{filename}", "w") as fh:
 		fh.write(template)
-
+	
 	for d in dirs:
-		traverse(directory, d)
-# print(MARKDOWN_TEMPLATE.replace("<<>>", pwd))
+		_traverse(directory, d, save_dir)
+
+def traverse(parent):
+	if not os.path.exists(parent):
+		print(f"{parent} does not exist in the root directory.")
+		exit()
+	else:
+		save_dir = f"{OUT_DIR}{parent}"
+		if not os.path.exists(save_dir):
+			os.mkdir(save_dir)
+		print(save_dir)
+		clean(save_dir)
+		_traverse("", parent, save_dir)
 
 
+if __name__ == "__main__":
+	pwd = sys.argv[1]
+	if pwd[-1] == '/':
+		pwd = pwd[:-1]
 
-clean()
-traverse("", pwd)
-
-# print(markdown_to_jekyll_page("./static/kavi/progress_reports/kavi_31_03_2021_progress_report.md"))
+	traverse(pwd)
 
