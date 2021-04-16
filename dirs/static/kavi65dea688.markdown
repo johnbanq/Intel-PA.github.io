@@ -6,5 +6,4 @@ permalink: /static/kavi/
 
 # Directory listing for /static/kavi
 [**<-back**](/static)  
-[**:file_folder: foo/**](/static/kavi/foo)  
 [**:file_folder: progress/**](/static/kavi/progress)  
