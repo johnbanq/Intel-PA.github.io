@@ -1,10 +1,3 @@
----
-layout: page
-title: test_report
-permalink: /static/kavi/progress/test_report/
----
-
-[**<-back**](/static/kavi/progress)  
 # Progress report 18/04/2021 - Kavi
 
 ## What I've done

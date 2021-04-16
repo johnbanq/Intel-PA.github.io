@@ -1,3 +1,10 @@
+---
+layout: page
+title: bar
+permalink: /static/kavi/foo/bar/
+---
+
+[**<-back**](/static/kavi/foo)  
 # Progress report 18/04/2021 - Kavi
 
 ## What I've done
