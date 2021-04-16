@@ -5,6 +5,7 @@ permalink: /static/kavi/progress/kavi_18_03_2021_progress_report/
 ---
 
 [**<-back**](/static/kavi/progress)  
+
 # Progress report - Kavi
 
 - Got a working demo of a Glow-TTS implementation running on the BU machine. Initially tried to train the model myself, but was unable to due to memory constraints. However, I used a pretrained model provided by the researchers to run the inference and confirm that the model generates sensible speech. 
