@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Files
+title: kavi_18_04_2021_progress_report
 permalink: /static/kavi/progress/kavi_18_04_2021_progress_report/
 ---
+
+[**<-back**](/static/kavi/progress)  
 
 # Progress report 18/04/2021 - Kavi
 
@@ -30,6 +32,3 @@ permalink: /static/kavi/progress/kavi_18_04_2021_progress_report/
 - Start working on the proposal for my initial review in June
 
 
-  
-
-[**<-back**](/static/kavi/progress)  

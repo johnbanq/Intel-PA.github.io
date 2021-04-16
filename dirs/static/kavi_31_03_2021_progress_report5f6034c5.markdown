@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Files
+title: kavi_31_03_2021_progress_report
 permalink: /static/kavi/progress/kavi_31_03_2021_progress_report/
 ---
+
+[**<-back**](/static/kavi/progress)  
 
 # Progress report - 31/03/2021 - Kavi
 
@@ -18,6 +20,4 @@ permalink: /static/kavi/progress/kavi_31_03_2021_progress_report/
 
 --Modify the Glow-TTS training/validation script to use the augmented datasets and compare some stats between this and the unaugmented training - does the error converge to an acceptable value faster or slower? No difference?
 
---Think of a different kind of augmentation policy altogether, and implement it. Current publications transform mel-spectrograms in simple linear ways (e.g. masking frequencies, stretching timescales, adding noise etc). Might be worth trying something more complicated (though I don't know at this stage what that might be) and checking error metrics similar to above.  
-
-[**<-back**](/static/kavi/progress)  
+--Think of a different kind of augmentation policy altogether, and implement it. Current publications transform mel-spectrograms in simple linear ways (e.g. masking frequencies, stretching timescales, adding noise etc). Might be worth trying something more complicated (though I don't know at this stage what that might be) and checking error metrics similar to above.

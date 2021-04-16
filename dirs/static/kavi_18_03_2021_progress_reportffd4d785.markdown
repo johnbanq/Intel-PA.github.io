@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Files
+title: kavi_18_03_2021_progress_report
 permalink: /static/kavi/progress/kavi_18_03_2021_progress_report/
 ---
+
+[**<-back**](/static/kavi/progress)  
 
 # Progress report - Kavi
 
@@ -15,6 +17,4 @@ permalink: /static/kavi/progress/kavi_18_03_2021_progress_report/
 
 - MELD dataset - audio clips of spoken dialogue annotated with its text and also with the emotional state of the speaker. Emotions labelled are Anger, Disgust, Fear, Joy, Neutral, Sadness and Surprise. While most of these would not be desireable for a medical diagnostic application (with the exception of perhaps neutral or sadness), it might be more applicable later down the line when the Intel-PA becomes more general purpose. 
 
-- Literature review in progress, exploring work done in current implementations of Text to Spectrogram models (Tacotron2, GlowTTS), vocoders(WaveGlow, melGAN) and End-to-End solutions(Wave-Tacotron)  
-
-[**<-back**](/static/kavi/progress)  
+- Literature review in progress, exploring work done in current implementations of Text to Spectrogram models (Tacotron2, GlowTTS), vocoders(WaveGlow, melGAN) and End-to-End solutions(Wave-Tacotron)
