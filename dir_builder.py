@@ -24,6 +24,7 @@ permalink: /{permalink}/{title}/
 ---
 
 [**<-back**](/{permalink})  
+
 """
 
 
@@ -57,16 +58,16 @@ def markdown_to_jekyll_page(filepath):
 	t = filename.split('.')[0]
 	p = '/'.join(filepath_l[:-1])
 
-	content = USER_MD_TEMPLATE.format(title=t, permalink=p) 
+	page = USER_MD_TEMPLATE.format(title=t, permalink=p)
 	with open(filepath, "r") as fh:
 		line = fh.readline()
-		content += f"{line}"
+		page += f"{line}"
 		while line:
 			line = fh.readline()
-			content += f"{line}"
+			page += f"{line}"
 
 
-	return content, t
+	return page, t
 
 
 def _traverse(parent, directory, save_dir):
