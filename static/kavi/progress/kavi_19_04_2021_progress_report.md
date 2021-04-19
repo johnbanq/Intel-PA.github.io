@@ -21,7 +21,7 @@
 
 - Keep investigating whether there are any better augmentation alternatives to frequency/time masking
 
-- Work on the tasks assigned to me on the Gantt chart
+- Integrate the Glow-TTS module with the rest of the chatbot codebase
 
 - Start working on the proposal for my initial review in June
 
