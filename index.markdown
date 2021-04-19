@@ -15,11 +15,14 @@ title: Intel-PA Home
 - Natural language generation module - Xiaoxiao Liu
 - Speech generation module - Kavi Jayathunge
 
+### Meeting minutes
+A record of the meetings held can be found [here.](/minutes/)
+
 ### Static files
-  Files generated over the course of the work - graphs, images, reports etc can be found [here](/static/)
+Files generated over the course of the work - graphs, images, reports etc can be found [here.](/static/)
 
 ### Literature
-  This is a repository of academic writing that has been read so far, along with comments about its relevance to the project. (Maybe link to a Mendeley library here?)
+This is a repository of academic writing that has been read so far, along with comments about its relevance to the project. (Maybe link to a Mendeley library here?)
   
 ### Datasets
-  A collection of relevant datasets with appropriate statistics (size, is it noisy etc). Link to a google drive.
+A collection of relevant datasets with appropriate statistics (size, is it noisy etc). Link to a google drive.
