@@ -3,7 +3,7 @@ Next meeting: 23/06/2021, 14:00-15:00
 
 ## Points discussed
 
-- Kavi: NHSx replied and said that here are no datasets that have what we're interested in (i.e. transcripts of doctor/patient interactions). There are no immediate plans to remedy this, so we should not pursue them further.
+- Kavi: NHSx replied and said that there are no datasets that have what we're interested in (i.e. transcripts of doctor/patient interactions). There are no immediate plans to remedy this, so we should not pursue them further.
 - Collected webpages for \~180 diseases, but the data is not properly annotated - difficult to extract symptoms from it
 - Xiaoxiao: found a dataset used by a healthcare chatbot project, \~5k data points, some duplicates included. Could use this dataset as a base to extract keywords from natural language sources. We don't need a lot of data at this stage, just enough to get a minimal working system. Dataset is not associated with any published papers, Richard expressed concern about whether we could use it and publish our own results from it
 - Jiajun: Completed head pose estimation algorithm(Own research), and planning on starting work on decision tree. Will concentrate on 4-5 symptoms to build a minimal one. 
