@@ -1,0 +1,26 @@
+name: build-and-deploy
+on:
+  push:
+    branches: [ jekyll-site ]
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: 'jekyll-site'
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: execute dir builder
+        run: |
+          python dir_builder.py minutes
+          python dir_builder.py static
+      - name: commit and push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: 'chore: build website'
